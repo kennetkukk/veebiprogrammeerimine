@@ -38,7 +38,7 @@
 	echo date("d.m.Y");
 	echo ".</p>";
 	echo "<p>Lehe laadimise hetkel oli kell: " .date("H:i:s") ."<?p>";
-	echo "Praegu on " .partOfDay .".";
+	echo "Praegu on " .$partOfDay .".";
 	?>
 	<p>PHP kaivitatakse lehe laadimisel ja siis tehakse kogu too ara. Hiljem, kui midagi vaja jalle "kalkuleerida", 
 	siis laetakse kogu leht uuesti.</p>

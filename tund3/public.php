@@ -46,11 +46,11 @@
 <head>
 	<meta charset="utf-8">
 	<title>
-		Andrus Rinde veebiprogemise asjad
+		Kennet Kuke veebiprogemise asjad
 	</title>
 </head>
 <body>
-	<h1>Andrus Rinde</h1>
+	<h1>Kennet Kukk</h1>
 	<p>See veebileht on loodud veebiprogrammeerimise kursusel ning ei sisalda mingisugust tõsiseltvõetavat sisu.</p>
 	<p>Olen tubli tark ja ilus!</p>
 	

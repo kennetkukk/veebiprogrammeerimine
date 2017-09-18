@@ -14,6 +14,13 @@
 			array_push($imageFiles, $file);
 		}
 	}//foreach loppeb
+	//var_dump($imageFiles);
+	
+	//mitu pilti on?
+	$fileCount = count($imageFiles);
+	$imageNumber = mt_rand(0, $fileCount - 1);
+	$imageToShow = $imageFiles[$imageNumber];
+	
 
 	
 ?>
@@ -31,10 +38,8 @@
 	<p>See veebileht on loodud veebiprogrammeerimise kursusel ning ei sisalda mingisugust tõsiseltvõetavat sisu.</p>
 	<p>Olen tubli tark ja ilus!</p>
 	<p> Üks pilt Tallinna Ülikoolist!</p>
-	<img src="../../images/tlu_5.jpg" alt="Tallinna Ülikool">
+	<img src="<?php echo $dirToRead .$imageToShow ?>" alt="Tallinna Ülikool">
 	
 
 </body>
 </html>
-
-
